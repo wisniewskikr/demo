@@ -5,7 +5,7 @@ SPRING BOOT MVC THYMELEAF
 LOCALHOST URL
 -------------
 
-* **URL**: http://localhost:8080/app/greeting
+* **URL**: http://localhost:8080
 
 
 DESCRIPTION
@@ -28,8 +28,7 @@ Implementation details:
 * Create Command class with name GreetingCommand;
 * Create HTML template with name "greeting.html";
 * Create file with CSS: src/main/resources/static/css/custom.css;
-* Create file with JS: src/main/resources/static/js/custom.js;
-* Create file with properties of application: src/main/resources/application.properties.
+* Create file with JS: src/main/resources/static/js/custom.js.
   
 
 LAUNCH
@@ -46,4 +45,4 @@ USAGE
 -----
 
 Link to main UI:
-* http://[server]/app/greeting
+* http://[server]
