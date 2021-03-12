@@ -11,7 +11,7 @@ import com.example.app.commands.greeting.GreetingCommand;
 @Controller
 public class GreetingController {
 
-	@RequestMapping(value="/greeting", method = RequestMethod.GET)
+	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String greeting(@ModelAttribute("command") GreetingCommand command) {
 		
 		command.setText("Hello World!");
