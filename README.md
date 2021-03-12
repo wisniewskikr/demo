@@ -1,5 +1,5 @@
-SPRING BOOT MVC THYMELEAF
-=========================
+DEMO - SPRING BOOT MVC, THYMELEAF AND DOCKER
+============================================
 
 
 LOCALHOST URL
@@ -46,3 +46,16 @@ USAGE
 
 Link to main UI:
 * http://[server]
+
+
+DOCKER
+-----
+
+Docker configuration is described in file **Dockerfile**. 
+Commands:
+* **Build Docker Image** (pay attention on the dot at the end): docker build -t {image-name} .
+* **Run Docker Container**: docker run -p {port} {image-name}
+
+For instance:
+* docker build -t wisniewskikr/demo .
+* docker run -p 8080:8080 wisniewskikr/demo 
