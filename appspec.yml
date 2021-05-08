@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-2:381196861170:task-definition/mvc-thymeleaf-task:2"
+        TaskDefinition: "arn:aws:ecs:eu-west-1:381196861170:task-definition/demo-task:1"
         LoadBalancerInfo:
-          ContainerName: "mvc-thymeleaf-container"
-          ContainerPort: 80
+          ContainerName: "demo-container"
+          ContainerPort: 8080
