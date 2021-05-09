@@ -14,7 +14,7 @@ public class GreetingController {
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String greeting(@ModelAttribute("command") GreetingCommand command) {
 		
-		command.setText("New Hello World!");
+		command.setText("Hello World!");
 		return "greeting/greeting";
 		
 	}
